@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+
+.message {
+  display: flex;
+  font-size: 0.75rem;
+  flex-direction: column;
+  border-bottom: solid 1px dodgerBlue;
+  margin: 1rem 0;
+}
+
+.message .text {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+  background-color: cornSilk;
+}
+
+.message > div {
+  display: flex;
+}
+.message > div > * {
+  flex: 2;
+}
+.message label {
+  font-weight: bold;
+  flex: 1;
+}
+
+.messageForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageForm button,select {
+  height: 2rem;
+}
+
+.messageForm > * {
+  margin: 1rem;
+}
